@@ -2,6 +2,7 @@
 @import 'mixins';
 @import 'custom-buttons';
 
+
 body{
   font-family:$font-stack;
   background-color: $wh-color !important;
@@ -31,7 +32,7 @@ body{
     width:118%;
     content: '';
   }
-  
+
   #header{
     background-color:transparent;
     padding:0px;
@@ -56,7 +57,7 @@ body{
     display: block;
     text-align: center;
     float: none;
-    
+
     li{
       display: inline-block;
       float: none;
@@ -142,7 +143,7 @@ body{
   -o-transform: translate(0px, -100%) scale(0, 0);
   -ms-transform: translate(0px, -100%) scale(0, 0);
   transform: translate(0px, -100%) scale(0, 0);
-  
+
   opacity: 0;
   overflow: hidden;
   &.open{
@@ -150,7 +151,7 @@ body{
     -moz-transform: translate(0px, 0px) scale(1, 1);
     -o-transform: translate(0px, 0px) scale(1, 1);
     -ms-transform: translate(0px, 0px) scale(1, 1);
-    transform: translate(0px, 0px) scale(1, 1); 
+    transform: translate(0px, 0px) scale(1, 1);
     opacity: 1;
   }
   form{
@@ -180,7 +181,7 @@ body{
     font-weight: 300;
     text-align: center;
     border: 0px;
-    border-bottom: 1px solid #474644; 
+    border-bottom: 1px solid #474644;
     margin: 50px auto;
     outline: none;
     text-transform: uppercase;
@@ -289,7 +290,7 @@ body#product-details, body#checkout-page, body#cart, body#default{
     #nav-bar{
       width:100% !important;
     }
-    
+
   }
   body#login, body#signup{
     background-color: #000 !important;
@@ -328,7 +329,7 @@ body#product-details, body#checkout-page, body#cart, body#default{
     .navbar-toggle{
       background-color: #000;
     }
-    
+
     .navbar-nav{
       display: inline-block;
       a{
