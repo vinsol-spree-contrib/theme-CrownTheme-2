@@ -566,7 +566,9 @@ body#product-details, body#checkout-page, body#cart, body#default{
   }
 }
 
-
+body.search-active{
+  position:fixed;
+}
 
 
 
