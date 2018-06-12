@@ -736,7 +736,8 @@ abbr[title]{
   border:0 !important;
 }
 
-@media screen and (max-width:767px){  
+@media screen and (max-width:767px){ 
+ 
   [type="checkbox"]:not(:checked) + label:after,
   [type="checkbox"]:checked + label:after {
     font-size: 10px !important;
